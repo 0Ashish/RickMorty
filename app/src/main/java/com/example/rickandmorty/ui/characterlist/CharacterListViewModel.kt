@@ -1,9 +1,9 @@
-package com.example.pwapplication.ui.characterlist
+package com.example.rickandmorty.ui.characterlist
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.pwapplication.data.model.Character
-import com.example.pwapplication.data.repository.CharacterRepository
+import com.example.rickandmorty.data.model.Character
+import com.example.rickandmorty.data.repository.CharacterRepository
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch

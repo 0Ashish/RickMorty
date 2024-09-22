@@ -1,4 +1,4 @@
-package com.example.pwapplication.data.model
+package com.example.rickandmorty.data.model
 
 data class CharacterDetail(    val id: Int,
                                val name: String,

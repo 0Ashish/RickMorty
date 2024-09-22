@@ -1,10 +1,9 @@
-package com.example.pwapplication
+package com.example.rickandmorty
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.activity.viewModels
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -15,23 +14,20 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 
-import com.example.pwapplication.data.network.RetrofitInstance
-import com.example.pwapplication.data.repository.CharacterRepository
-import com.example.pwapplication.ui.characterdetail.CharacterDetailScreen
-import com.example.pwapplication.ui.characterdetail.CharacterDetailViewModel
-import com.example.pwapplication.ui.characterlist.CharacterListViewModel
+import com.example.rickandmorty.data.network.RetrofitInstance
+import com.example.rickandmorty.data.repository.CharacterRepository
+import com.example.rickandmorty.ui.characterdetail.CharacterDetailScreen
+import com.example.rickandmorty.ui.characterdetail.CharacterDetailViewModel
+import com.example.rickandmorty.ui.characterlist.CharacterListViewModel
 
-import com.example.pwapplication.ui.characterlist.CharacterListScreen
-import com.example.pwapplication.ui.theme.PWApplicationTheme
+import com.example.rickandmorty.ui.characterlist.CharacterListScreen
+import com.example.rickandmorty.ui.theme.PWApplicationTheme
 
 class MainActivity : ComponentActivity() {
 

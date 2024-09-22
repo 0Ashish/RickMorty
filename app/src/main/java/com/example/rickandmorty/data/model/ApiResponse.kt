@@ -1,4 +1,4 @@
-package com.example.pwapplication.data.model
+package com.example.rickandmorty.data.model
 
 data class ApiResponse<T>(
     val results: List<T>)

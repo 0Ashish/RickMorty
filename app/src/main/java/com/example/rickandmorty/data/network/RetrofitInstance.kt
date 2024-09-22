@@ -1,6 +1,5 @@
-package com.example.pwapplication.data.network
+package com.example.rickandmorty.data.network
 
-import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

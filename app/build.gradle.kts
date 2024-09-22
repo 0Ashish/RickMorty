@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.pwapplication"
+    namespace = "com.example.rickandmorty"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.pwapplication"
+        applicationId = "com.example.rickandmorty"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

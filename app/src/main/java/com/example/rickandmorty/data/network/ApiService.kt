@@ -1,8 +1,8 @@
-package com.example.pwapplication.data.network
+package com.example.rickandmorty.data.network
 
-import com.example.pwapplication.data.model.ApiResponse
-import com.example.pwapplication.data.model.Character
-import com.example.pwapplication.data.model.CharacterDetail
+import com.example.rickandmorty.data.model.ApiResponse
+import com.example.rickandmorty.data.model.Character
+import com.example.rickandmorty.data.model.CharacterDetail
 import retrofit2.http.GET
 import retrofit2.http.Path
 

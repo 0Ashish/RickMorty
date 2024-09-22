@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PWApplication"
+rootProject.name = "RickAndMorty"
 include(":app")
  

@@ -1,4 +1,4 @@
-package com.example.pwapplication
+package com.example.rickandmorty
 
 import org.junit.Test
 
